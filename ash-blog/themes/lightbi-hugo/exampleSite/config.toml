@@ -92,8 +92,8 @@ previewCardImagePlacement = "bottom"
     weight = 3
 
 [[menu.main]]
-    name = "Collections"
-    url = "/collections/"
+    name = "Journals"
+    url = "/journals/"
     weight = 4
 
 [[menu.main]]
