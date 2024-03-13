@@ -2,5 +2,5 @@
 type: "tags"
 layout: "notes"
 title: "Notes"
-subtitle: "Coding or reading notes"
+subtitle: "Study Notes"
 ---

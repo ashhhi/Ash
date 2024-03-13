@@ -1,7 +1,7 @@
 baseURL = "https://ashhhi.github.io/"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
-title = "Ash‘s life"
+title = "Ash Blog"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -20,12 +20,12 @@ summaryLength  = "30"
 [Params]
 selfHosted = true
 mainSections = ["post","posts"]
-dateFormat = "2 January 2023"
+dateFormat = "2 January 2006"
 comments = false
 readingTime = false
 wordCount = false
 useHLJS = true
-socialShare = true
+socialShare = false
 delayDisqus = true
 showRelatedPosts = true
 summaryLength  = "9"
@@ -35,8 +35,8 @@ lastmod = false
 rss = false
 pagination = "10"
 hideAuthor = false
-authorInfo = "developer, gamer, guitar layer"
-description="Your can add your website description here."
+authorInfo = "developer, gamer, guitar player"
+description="Welcome to my world"
 previewCardImagePlacement = "bottom"
 
 
