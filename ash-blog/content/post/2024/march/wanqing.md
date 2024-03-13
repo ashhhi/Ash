@@ -2,7 +2,7 @@
 title: "“明天是复杂的漫游”"
 date: 2024-03-13
 description: "「万能青年旅店」香港演唱会"
-tags: ["记录"]
+tags: ["乐队"]
 image: "/img/posts/wanqing.jpg"
 draft: false
 ---

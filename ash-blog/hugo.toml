@@ -84,25 +84,26 @@ previewCardImagePlacement = "bottom"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
-
 #[[menu.main]]
-#    name = "Tags"
-#    url = "/tags/blog/"
-#    weight = 3
+#    name = "Notes"
+#    url = "/notes/"
+#    weight = 2
 
 [[menu.main]]
     name = "Journals"
     url = "/journals/"
-    weight = 4
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 4
 
 
 
