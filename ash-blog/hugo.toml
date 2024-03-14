@@ -1,109 +1,182 @@
+# ------------------------------------- #
+# ---- General Settings --------------- #
+# ------------------------------------- #
+
 baseURL = "https://ashhhi.github.io/"
-DefaultContentLanguage = "en"
-languageCode = "en-us"
-title = "Ash Blog"
-theme = "lightbi-hugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-#pygmentsUseClasses = true
-#pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
-enableRobotsTXT = true
-enableGitInfo = false
-Paginate = 6
-summaryLength  = "30"
+title = "Ash"
+theme = "den"
+#enableRobotsTXT = true       # generate robots.txt
+enableEmoji = true           # use emoji support
+hasCJKLanguage = true        # detect CJK languages for word count etc.
+preserveTaxonomyNames = true # do not make tag names lowercase
+# uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
+rssLimit = 20                # limit number of entries in RSS feeds
 
-[Params]
-selfHosted = true
-mainSections = ["post","posts"]
-dateFormat = "2 January 2006"
-comments = false
-readingTime = false
-wordCount = false
-useHLJS = true
-socialShare = false
-delayDisqus = true
-showRelatedPosts = true
-summaryLength  = "9"
-lunrSearch = true
-gcse = false
-lastmod = false
-rss = false
-pagination = "10"
-hideAuthor = false
-authorInfo = "developer, gamer, guitar player"
-description="Welcome to my world"
-previewCardImagePlacement = "bottom"
+# Copyright, appears in the footer
+# copyright = "Ash"             # default: author.name
 
+# Pagination
+# number of entries per page for archives, tags and categories
+# since we don't have list view, recommend a large value
+paginate = 20
+paginatePath = "page"
 
-[sitemap]
-  changefreq = "monthly"
+# Syntax Hightlight
+PygmentsCodeFences = true
+PygmentsUseClasses = true    # required for shhighlight shortcode
+
+# service plugins
+disqusShortname = ""         # disqus_shortname
+googleAnalytics = ""         # UA-XXXXXXXX-X
+
+# language support # en / zh-tw / other... translations present in i18n/
+defaultContentLanguage = "zh-cn"           # Default language to use
+defaultContentLanguageInSubdir = true
+
+# Links format
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+  categories = "/category/:slug/"      # required
+  tags = "/tag/:slug/"                 # required
+  pages = "/:slug/"
+
+[author]                     # required
+  name = "Ash"
+
+[sitemap]                    # required
+  changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
-[Author]
-  name = "SHI Junshen (ASH)"
-  email = "shijunshen424@gmail.com"
-  bilibili = "497774849?spm_id_from=333.1007.0.0"
-  telegram = "ashsjs424"
+# ------------------------------------- #
+# ---- Other Params ------------------- #
+# ------------------------------------- #
 
-  #facebook = "username"
-  #instagram = "username"
-  #youtube = "user/username" # or channel/channelname
-  #twitter = "username"
-  #threads = "username"
-  #linkedin = "username"
-  github = "ashhhi"
-  #gitlab = "username"
-  #bitbucket = "username"
-  #reddit = "username"
-  #xing = "username"
-  #stackoverflow = "users/XXXXXXX/username"
-  #snapchat = "username"
-  #soundcloud = "username"
-  #spotify = "username"
-  #bandcamp = "username"
-  #itchio = "username"
-  #vk = "username"
-  #paypal = "username"
-  #500px = "username"
-  #codepen = "username"
-  #mastodon = "url"
-  #kaggle = "username"
-  #weibo = "username"
-  #slack = "username"
-  #website = "https://binovarghese.com/"
+[params]
+  since = "2024"             # Site creation time
+  rssFullContent = true      # set true to use full content instead of summary
+
+  # site info (optional)
+  keywords = ["Hugo", "theme","den"]
+  description = "Everything I love"
+  logoTitle = "Ash" # shown on top-left, default: title
+  siteLogoImage = "images/globe.svg"     # shown besides logoTitle
+  # headerTitle = "Den"                   # default: title
+  headerImage = "images/background.jpg"
+  showAuthorCard = true # Whether to show author information below the article
+
+  showMenuLanguages = true
+
+  autoLoadComments = false # auto load comment when scrolling down
+
+  # paginate style, default use numbered pagination links
+  # if true, use original "Previous" and "Next" links.
+  # paginateOriginalStyle = true
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  google_verification = ""  # Google_Verification
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []             # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
+
+# ------------------------------------- #
+# ---- Related Articles --------------- #
+# ------------------------------------- #
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 50
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = true
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+[[related.indices]]
+  name = "categories"
+  weight = 200
+
+[[related.indices]]
+  name = "keywords"
+  weight = 150
+
+[[related.indices]]
+  name = "tags"
+  weight = 100
 
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+[languages.en]
+  languageCode = "en"
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 1
 
-#[[menu.main]]
-#    name = "Notes"
-#    url = "/notes/"
-#    weight = 2
+  [[languages.en.menu.main]]
+    name = "Notes"
+    weight = 10
+    identifier = "note"
+    url = "category/note/"
+  [[languages.en.menu.main]]
+    name = "Lifes"
+    weight = 20
+    identifier = "life"
+    url = "category/life/"
 
-[[menu.main]]
-    name = "Journals"
-    url = "/journals/"
-    weight = 2
+  [[languages.en.menu.contact]]
+    name = "Telegram"
+    weight = 10
+    identifier = "telegram"
+    url = "https://telegram.me/ashsjs424"
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
+  [[languages.en.menu.links]]
+    name = "GitHub"
+    weight = 10
+    identifier = "github"
+    url = "https://github.com/shaform/hugo-theme-den/"
+
+  [[languages.en.menu.links]]
+    name = "Bilibili"
+    weight = 20
+    identifier = "bilibili"
+    url = "https://space.bilibili.com/497774849?spm_id_from=333.1007.0.0"
 
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 4
+[languages.zh-cn]
+  languageCode = "zh-cn"
+  languageName = "简体中文"
+  contentDir = "content/zh-cn"
+  weight = 2
+
+  [[languages.zh-cn.menu.main]]
+    name = "笔记"
+    weight = 10
+    identifier = "note"
+    url = "category/note/"
+  [[languages.zh-cn.menu.main]]
+    name = "生活"
+    weight = 20
+    identifier = "life"
+    url = "category/life/"
+
+  [[languages.zh-cn.menu.contact]]
+    name = "Telegram"
+    weight = 10
+    identifier = "telegram"
+    url = "https://telegram.me/ashsjs424"
 
 
+  [[languages.zh-cn.menu.links]]
+    name = "GitHub"
+    weight = 10
+    identifier = "github"
+    url = "https://github.com/ashhhi"
 
+  [[languages.zh-cn.menu.links]]
+    name = "Bilibili"
+    weight = 20
+    identifier = "bilibili"
+    url = "https://space.bilibili.com/497774849?spm_id_from=333.1007.0.0"
