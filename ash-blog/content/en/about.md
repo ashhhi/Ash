@@ -1,19 +1,13 @@
 ---
 title: "About"
-date: 2017-08-20T21:38:52+08:00
-lastmod: 2017-08-28T21:41:52+08:00
+date: 2024-03-13
+lastmod: 2024-03-13
 menu: "main"
 weight: 50
 ---
 
-Hugo is a static site engine written in Go.
+你好 👋，这里是 Ash 的 Blog，这里仅用来记录生活和学习笔记，从小到大文笔不好，想坚持写点东西已经对我是巨大的挑战了...
 
+本科计算机专业，目前硕士就读于香港城市大学 EE，正在准备申请 Phd，感兴趣的方向是人工智能，物联网，区块链方面，已有导师，正在当黑奴...
 
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+同时我是一位极其懒惰的吉他手，爱听各种类型的摇滚乐，但唯一偶像和精神支柱为 Slash，网站下方有我的联系方式以及视频 Channel，随缘更新弹琴 or 演出视频，有兴趣的可以关注一下！
