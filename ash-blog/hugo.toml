@@ -111,6 +111,10 @@ defaultContentLanguageInSubdir = true
   name = "tags"
   weight = 100
 
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+
 
 [languages.en]
   languageCode = "en"
