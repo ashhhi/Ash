@@ -3,7 +3,7 @@ title: "“明天是复杂的漫游”"
 date: 2024-03-13
 lastmod: 2024-03-13
 draft: false
-tags: ["life"]
+tags: ["乐队"]
 categories: ["Life"]
 authors:
   - "Ash"

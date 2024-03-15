@@ -3,7 +3,7 @@ title: "Docker 配置 Prometheus+Alertmanager+Grafana+Mysql"
 date: 2023-02-28
 lastmod: 2023-02-28
 draft: false
-tags: ["note"]
+tags: ["Docker", "前端"]
 categories: ["Note"]
 authors:
   - Ash

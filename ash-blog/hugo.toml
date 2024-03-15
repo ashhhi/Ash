@@ -13,7 +13,7 @@ preserveTaxonomyNames = true # do not make tag names lowercase
 rssLimit = 20                # limit number of entries in RSS feeds
 
 # Copyright, appears in the footer
-# copyright = "Ash"             # default: author.name
+copyright = "Ash"             # default: author.name
 
 # Pagination
 # number of entries per page for archives, tags and categories
@@ -55,7 +55,7 @@ defaultContentLanguageInSubdir = true
 [params]
   since = "2024"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
-
+  customFavicon = "/images/favicon.ico"
   # site info (optional)
   keywords = ["Hugo", "theme","den"]
   description = "Everything I love"
@@ -67,7 +67,7 @@ defaultContentLanguageInSubdir = true
 
   showMenuLanguages = true
 
-  autoLoadComments = false # auto load comment when scrolling down
+  autoLoadComments = true # auto load comment when scrolling down
 
   # paginate style, default use numbered pagination links
   # if true, use original "Previous" and "Next" links.
