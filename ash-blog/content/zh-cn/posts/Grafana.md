@@ -6,7 +6,7 @@ draft: false
 tags: ["Docker", "前端"]
 categories: ["Note"]
 authors:
-  - Ash
+  - "Ash"
 ---
 
 # Docker 配置 Prometheus+Alertmanager+Grafana+Mysql

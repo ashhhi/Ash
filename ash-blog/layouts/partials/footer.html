@@ -82,11 +82,11 @@
             ></small
           ><br />
           <small>
-            {{ $current := now.Format "2006" -}} &copy; {{ if or .Site.Copyright
-            .Site.Author.name -}} {{if .Site.Copyright }}{{ .Site.Copyright |
-            safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }} {{-
-            end }} {{ if and .Site.Params.since (ne .Site.Params.since $current)
-            }} {{ .Site.Params.since }} - {{ end }} {{- $current }}
+            {{ $current := now.Format "2006" -}} NJUST, CS</br>CityU of Hong Kong, EE, MIT</br>  &copy; {{ if or .Site.Copyright .Site.Author.name -}} {{if
+            .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{
+            .Site.Author.name | safeHTML }}{{ end }} {{- end }} {{ if and
+            .Site.Params.since (ne .Site.Params.since $current) }} {{
+            .Site.Params.since }} - {{ end }} {{- $current }}
           </small>
           {{ with .Site.Params.footerHTML }}
           <small><em>{{ . | safeHTML }}</em></small>

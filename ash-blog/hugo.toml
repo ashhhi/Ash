@@ -83,11 +83,6 @@ defaultContentLanguageInSubdir = true
   customCSS = []             # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
-[params.utteranc]
-  enable = true
-  repo = "ashhhi/hugoblogtalks" ##换成自己得
-  issueTerm = "pathname"
-  theme = "github-light"
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #
