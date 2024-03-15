@@ -14,12 +14,12 @@ weight: 50
 ![Guitar](image.png)
 
 ## 🧑‍💻最近在忙
-- EE6680 Dissertation在导师公司打工
+- [Crop Coverage and Height Detection Based on Deep Learning](https://github.com/ashhhi/Smart-Farm)
 - 玩无畏契约
 
 ## 👓最近在看
 - [无耻之徒 第四季](https://gimy.ai/vod/155289.html)
-- [Valorant马德里大师赛](https://vct.qq.com/)
+- [Valorant马德里大师赛](https://liquipedia.net/valorant/VCT/2024/Stage_1/Masters)
 
 ## 🎧最近在听
 - [The Cure](https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s?si=cc456907784b4200)
