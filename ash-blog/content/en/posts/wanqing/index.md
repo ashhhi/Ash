@@ -7,11 +7,9 @@ tags: ["乐队"]
 categories: ["Life"]
 authors:
   - "Ash"
-resources:
-  - name: header
-    src: "header.jpg"
 ---
 
+![](header.jpg)
 “明天是复杂的漫游”，在微博和微信上，以及这篇 Blog 的 Title，我都写了这句话，源自万青的「采石」。
 
 ## 初识
