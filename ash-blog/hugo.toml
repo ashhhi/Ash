@@ -84,6 +84,7 @@ defaultContentLanguageInSubdir = true
   customJS = ['social-share.min.js']              # if ['custom.js'], load '/static/js/custom.js' file
 
   page_view_conter = true
+  busuanzi = true
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #

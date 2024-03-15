@@ -87,6 +87,8 @@
             .Site.Author.name | safeHTML }}{{ end }} {{- end }} {{ if and
             .Site.Params.since (ne .Site.Params.since $current) }} {{
             .Site.Params.since }} - {{ end }} {{- $current }}</br>
+            
+            
           </small>
           <span id="sitetime"></span> <!--显示建站时间的地方放置此代码 可以加上其他代HTML代码加粗颜色等-->
           <script language=javascript>
@@ -116,6 +118,13 @@
               }
               siteTime();
           </script>
+          {{ if .Site.Params.busuanzi -}}
+          </br>
+          <script async src="/js/busuanzi.pure.mini.js"></script>
+            <small>
+              总访问量&nbsp<span id="busuanzi_value_site_pv">次</span>
+            </small>
+          {{- end -}}
           {{ with .Site.Params.footerHTML }}
           <small><em>{{ . | safeHTML }}</em></small>
           {{ end }}
