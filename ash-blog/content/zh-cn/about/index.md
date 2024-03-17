@@ -15,6 +15,7 @@ weight: 50
 
 ## 🧑‍💻最近在忙
 - [Crop Coverage and Height Detection Based on Deep Learning](https://github.com/ashhhi/Smart-Farm)
+- [Music with Movements](https://github.com/ashhhi/MWM)
 - 玩无畏契约
 
 ## 👓最近在看
