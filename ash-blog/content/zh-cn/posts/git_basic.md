@@ -1,3 +1,14 @@
+---
+title: "Git笔记"
+date: 2024-03-17
+lastmod: 2024-03-17
+draft: false
+tags: ["Git"]
+categories: ["Note"]
+authors:
+  - "Ash"
+---
+
 # Git 笔记
 
 ## 清除git缓存，使修改后的gitignore生效
