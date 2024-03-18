@@ -67,7 +67,7 @@
 <div class="container content">
   <article>
   {{ .Content }}
-  </article>
+  <div style="display: flex; justify-content: flex-end;"><span style="font-style: italic; color: grey; ">最后编辑于: {{ .Lastmod.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") -}}</span></div></article>
 
   {{ if .Site.Params.enableRelated -}}
   {{- $related := .Site.RegularPages.Related . | first 5 -}}
