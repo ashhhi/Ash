@@ -546,6 +546,10 @@ blockquote {
   margin-top: 40px;
   text-align: center;
 }
+.giscus-comment {
+  margin-top: 40px;
+  text-align: center;
+}
 
 /* Spaces */
 .mr5 {
