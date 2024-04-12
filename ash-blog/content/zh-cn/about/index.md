@@ -16,14 +16,12 @@ weight: 50
 ## 🧑‍💻最近在忙
 - [Crop Coverage and Height Detection Based on Deep Learning](https://github.com/ashhhi/Smart-Farm)
 - [Music with Movements](https://github.com/ashhhi/MWM)
-- 玩无畏契约
 
 ## 👓最近在看
-- [无耻之徒 第四季](https://gimy.ai/vod/155289.html)
-- [Valorant马德里大师赛](https://liquipedia.net/valorant/VCT/2024/Stage_1/Masters)
+- [无耻之徒 第五季](https://www.xiaobaotv.app/vod/play/69443-1-1.html)
 
 ## 🎧最近在听
-- [The Cure](https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s?si=cc456907784b4200)
-- [孙燕姿](https://open.spotify.com/artist/0SIXZXJCAhNU8sxK0qm7hn?si=344278c6588b4a58)
-- [Sylvain Luc](https://open.spotify.com/artist/2dXI8YsDDZSD3HgoNUvilF?si=49f8ea2a7ac34518)
-- [Chucho Valdes](https://open.spotify.com/artist/27mRThsZ9K1BYmz0rioxwp?si=8058605073d147f2)
+- 英语播客
+
+## 🎮最近在玩
+- 无畏契约
