@@ -18,10 +18,11 @@ weight: 50
 - [Music with Movements](https://github.com/ashhhi/MWM)
 
 ## 👓最近在看
-- [无耻之徒 第五季](https://www.xiaobaotv.app/vod/play/69443-1-1.html)
+- [无耻之徒 第八季](https://www.xiaoxintv.app/vod/play/84351-1-1.html)
 
 ## 🎧最近在听
 - 英语播客
+- [Spotify歌单](https://open.spotify.com/playlist/34ejIj5InDVnUcPLD4kGGL?si=532b39087be340d5)
 
 ## 🎮最近在玩
 - 无畏契约
