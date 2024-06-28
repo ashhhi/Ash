@@ -2,7 +2,7 @@
 title: "记：登狮子山顶俯瞰九龙，与乐队朋友的爵士Conference，EDG惜败Gen.G"
 date: 2024-03-17
 lastmod: 2024-03-17
-draft: false
+draft: true
 tags: ["远足", "聚会", "音乐", "记", "游戏"]
 categories: ["Life"]
 authors:
